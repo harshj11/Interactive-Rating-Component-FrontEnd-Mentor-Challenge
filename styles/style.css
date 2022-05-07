@@ -99,7 +99,7 @@ ul {
     transition: all 100ms ease-in-out;
 }
 
-.btn__rate:hover {
+.btn__rate__hover:hover {
     background-color: var(--orange);
     color: var(--white);
 }
@@ -156,6 +156,11 @@ ul {
 
 .hide {
     display: none;
+}
+
+.selected {
+    background-color: var(--lightGrey);
+    color: var(--white);
 }
 
 .attribution {
